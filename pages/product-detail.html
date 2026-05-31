@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xiaomi Mi 9 Smartphone | BrandStore</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span>📞 +1 (800) 123-4567</span>
+        <span>📧 support@brandstore.com</span>
+        <span>🚚 Free shipping on orders over $50</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="#">🌐 English</a>
+        <a href="#">$ USD</a>
+        <a href="#">Seller Center</a>
+        <a href="#">Help</a>
+        <a href="#">Track Order</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN HEADER -->
+  <header class="main-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/brand/logo-colored.png" alt="Brand Logo" />
+        <span class="logo-text">BrandStore</span>
+      </a>
+      <div class="search-bar">
+        <select class="search-category">
+          <option>All Categories</option>
+          <option>Electronics</option>
+          <option>Clothing</option>
+          <option>Interior</option>
+          <option>Phones</option>
+        </select>
+        <input type="text" class="search-input" placeholder="Search products, brands and more..." />
+        <button class="search-btn">🔍</button>
+      </div>
+      <div class="header-actions">
+        <button class="header-action-btn" onclick="showToast('👤 Please login to continue')">
+          <span class="icon">👤</span><span>Account</span>
+        </button>
+        <button class="header-action-btn" onclick="showToast('❤️ Your wishlist')">
+          <span class="icon">❤️</span><span>Wishlist</span>
+          <span class="badge-count">3</span>
+        </button>
+        <a href="#" class="cart-btn"><span>🛒</span><span>Cart (2)</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAV BAR -->
+  <nav class="nav-bar">
+    <div class="container">
+      <div class="nav-categories">
+        <button class="all-categories-btn">☰ &nbsp; All Categories &nbsp; ▾</button>
+        <div class="dropdown-menu">
+          <a href="products.html"><span class="icon">📱</span> Phones & Tablets</a>
+          <a href="products.html"><span class="icon">💻</span> Computers & Laptops</a>
+          <a href="products.html"><span class="icon">🎧</span> Audio & Headphones</a>
+          <a href="products.html"><span class="icon">📷</span> Cameras</a>
+          <a href="products.html"><span class="icon">👗</span> Fashion & Clothing</a>
+          <a href="products.html"><span class="icon">🛋️</span> Home & Interior</a>
+        </div>
+      </div>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="products.html">Electronics</a></li>
+        <li><a href="products.html">Fashion</a></li>
+        <li><a href="products.html">Interior</a></li>
+        <li><a href="products.html">Deals</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-promo">🔥 Flash Sale: <span>Up to 70% OFF</span> today only!</div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="page-banner" style="padding:14px 0;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">🏠 Home</a> /
+        <a href="products.html">Products</a> /
+        <a href="products.html">Phones & Tablets</a> /
+        <span>Xiaomi Mi 9</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAIL SECTION (Week 3) -->
+  <section class="product-detail-section">
+    <div class="container">
+
+      <!-- LEFT: Image Gallery -->
+      <div class="product-gallery">
+        <!-- Main Image -->
+        <div class="main-image">
+          <img src="images/tech/tech3.png" alt="Xiaomi Mi 9" id="mainProductImg" />
+        </div>
+
+        <!-- Thumbnails -->
+        <div class="thumb-grid">
+          <div class="thumb active">
+            <img src="images/tech/tech3.png" alt="View 1" />
+          </div>
+          <div class="thumb">
+            <img src="images/tech/tech1.png" alt="View 2" />
+          </div>
+          <div class="thumb">
+            <img src="images/tech/tech4.png" alt="View 3" />
+          </div>
+          <div class="thumb">
+            <img src="images/tech/tech5.png" alt="View 4" />
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Product Info -->
+      <div class="product-detail-info">
+        <p class="product-category">📱 Phones & Tablets</p>
+        <h1>Xiaomi Mi 9 Smartphone — 128GB, 6GB RAM, Triple Camera</h1>
+
+        <!-- Rating & Stock -->
+        <div class="product-meta">
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(128 reviews)</span>
+          </div>
+          <span>|</span>
+          <span class="in-stock">✅ In Stock (47 units)</span>
+          <span>|</span>
+          <span style="font-size:13px; color:#6c757d;">SKU: XMI9-128-BLK</span>
+        </div>
+
+        <!-- Price -->
+        <div class="product-detail-price">
+          <span class="price-big">$279</span>
+          <span class="price-old">$429</span>
+          <span class="discount-badge">-35% OFF</span>
+          <p class="price-note">💰 You save $150.00 with this deal! Limited time offer.</p>
+        </div>
+
+        <!-- Color Picker -->
+        <div class="option-group">
+          <label>Color: <strong id="selected-color">Midnight Black</strong></label>
+          <div class="color-picker">
+            <div class="color-swatch active" style="background:#1a1a2e;" title="Midnight Black" data-name="Midnight Black" onclick="document.getElementById('selected-color').textContent=this.title"></div>
+            <div class="color-swatch" style="background:#e8e8e8; border:1px solid #ddd;" title="Pearl White" data-name="Pearl White" onclick="document.getElementById('selected-color').textContent=this.title"></div>
+            <div class="color-swatch" style="background:#0d6efd;" title="Ocean Blue" data-name="Ocean Blue" onclick="document.getElementById('selected-color').textContent=this.title"></div>
+            <div class="color-swatch" style="background:#6f42c1;" title="Lavender Purple" data-name="Lavender Purple" onclick="document.getElementById('selected-color').textContent=this.title"></div>
+          </div>
+        </div>
+
+        <!-- Size / Storage Dropdown (Week 3 - Dropdown for sizes) -->
+        <div class="option-group">
+          <label>Storage:</label>
+          <div class="size-options">
+            <button class="size-btn">64 GB</button>
+            <button class="size-btn active">128 GB</button>
+            <button class="size-btn">256 GB</button>
+            <button class="size-btn disabled">512 GB</button>
+          </div>
+        </div>
+
+        <!-- RAM -->
+        <div class="option-group">
+          <label>RAM:</label>
+          <div class="size-options">
+            <button class="size-btn">4 GB</button>
+            <button class="size-btn active">6 GB</button>
+            <button class="size-btn">8 GB</button>
+          </div>
+        </div>
+
+        <!-- Quantity -->
+        <div class="option-group">
+          <label>Quantity:</label>
+          <div class="qty-control">
+            <button class="qty-btn minus">−</button>
+            <input type="number" class="qty-input" value="1" min="1" max="10" />
+            <button class="qty-btn plus">+</button>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="detail-action-btns">
+          <button class="btn-add-cart">🛒 Add to Cart</button>
+          <button class="btn-buy-now">⚡ Buy Now</button>
+          <button class="btn-wishlist" title="Wishlist">❤️</button>
+        </div>
+
+        <!-- Shipping Info -->
+        <div class="shipping-info">
+          <div class="shipping-row">
+            <span class="icon">🚚</span>
+            <div><strong>Free Delivery</strong> — Estimated 2–4 business days</div>
+          </div>
+          <div class="shipping-row">
+            <span class="icon">🔄</span>
+            <div><strong>Easy Returns</strong> — 30-day hassle-free returns</div>
+          </div>
+          <div class="shipping-row">
+            <span class="icon">🔒</span>
+            <div><strong>Secure Payment</strong> — 100% protected checkout</div>
+          </div>
+          <div class="shipping-row">
+            <span class="icon">✅</span>
+            <div><strong>Authentic Product</strong> — Official brand warranty included</div>
+          </div>
+        </div>
+
+        <!-- Share -->
+        <div style="display:flex; gap:10px; align-items:center; font-size:13px; color:#6c757d;">
+          <span>Share:</span>
+          <a href="#" style="color:#1877f2; font-size:20px;" title="Share on Facebook">📘</a>
+          <a href="#" style="color:#e4405f; font-size:20px;" title="Share on Instagram">📸</a>
+          <a href="#" style="color:#1da1f2; font-size:20px;" title="Share on Twitter">🐦</a>
+          <a href="#" style="color:#25d366; font-size:20px;" title="Share on WhatsApp">💬</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT TABS (Description / Specs / Reviews) — Week 3 -->
+  <section class="product-tabs-section">
+    <div class="container">
+      <div class="tabs-header">
+        <button class="tab-btn active" data-tab="description">Description</button>
+        <button class="tab-btn" data-tab="specifications">Specifications</button>
+        <button class="tab-btn" data-tab="reviews">Reviews (128)</button>
+        <button class="tab-btn" data-tab="shipping">Shipping & Returns</button>
+      </div>
+
+      <!-- Description Tab -->
+      <div id="description" class="tab-content active">
+        <h3 style="margin-bottom:12px; font-size:18px;">Product Description</h3>
+        <p style="margin-bottom:12px; color:#495057; line-height:1.8;">
+          The <strong>Xiaomi Mi 9</strong> is a flagship Android smartphone packed with powerful performance and a stunning triple-camera system. Designed for users who demand the best in both functionality and style.
+        </p>
+        <ul style="padding-left:20px; color:#495057; line-height:2;">
+          <li>✅ 6.39-inch AMOLED display with in-display fingerprint sensor</li>
+          <li>✅ Snapdragon 855 processor — lightning fast performance</li>
+          <li>✅ Triple rear cameras: 48MP + 16MP + 12MP</li>
+          <li>✅ 20MP front camera with AI beautification</li>
+          <li>✅ 3300mAh battery with 27W fast charging</li>
+          <li>✅ Android 9.0 (upgradeable to Android 11)</li>
+          <li>✅ Wireless charging & NFC support</li>
+          <li>✅ IP52 water resistance rating</li>
+        </ul>
+      </div>
+
+      <!-- Specs Tab -->
+      <div id="specifications" class="tab-content">
+        <h3 style="margin-bottom:16px; font-size:18px;">Technical Specifications</h3>
+        <table style="width:100%; border-collapse:collapse; font-size:14px;">
+          <tr style="background:#f8f9fa;"><td style="padding:12px 16px; font-weight:600; width:35%; border-bottom:1px solid #dee2e6;">Brand</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">Xiaomi</td></tr>
+          <tr><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Model</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">Mi 9</td></tr>
+          <tr style="background:#f8f9fa;"><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Display</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">6.39" AMOLED, 2340x1080 px</td></tr>
+          <tr><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Processor</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">Snapdragon 855, Octa-core 2.84 GHz</td></tr>
+          <tr style="background:#f8f9fa;"><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">RAM</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">6 GB LPDDR4X</td></tr>
+          <tr><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Storage</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">128 GB UFS 2.1 (non-expandable)</td></tr>
+          <tr style="background:#f8f9fa;"><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Rear Camera</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">48MP + 16MP + 12MP Triple Camera</td></tr>
+          <tr><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Front Camera</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">20MP</td></tr>
+          <tr style="background:#f8f9fa;"><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Battery</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">3300 mAh, 27W Fast Charging</td></tr>
+          <tr><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">OS</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">Android 9.0 (MIUI 10)</td></tr>
+          <tr style="background:#f8f9fa;"><td style="padding:12px 16px; font-weight:600; border-bottom:1px solid #dee2e6;">Connectivity</td><td style="padding:12px 16px; border-bottom:1px solid #dee2e6;">Wi-Fi 802.11ac, Bluetooth 5.0, NFC, USB-C</td></tr>
+          <tr><td style="padding:12px 16px; font-weight:600;">Dimensions</td><td style="padding:12px 16px;">157.5 x 74.7 x 7.6 mm | 173g</td></tr>
+        </table>
+      </div>
+
+      <!-- Reviews Tab -->
+      <div id="reviews" class="tab-content">
+        <div style="display:flex; align-items:start; gap:40px; margin-bottom:30px;">
+          <!-- Overall Rating -->
+          <div style="text-align:center;">
+            <div style="font-size:56px; font-weight:700; color:#1a1a2e;">4.8</div>
+            <div class="stars" style="font-size:22px;">★★★★★</div>
+            <div style="font-size:13px; color:#6c757d; margin-top:4px;">128 reviews</div>
+          </div>
+          <!-- Rating Bars -->
+          <div style="flex:1;">
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+              <span style="font-size:13px; min-width:40px;">5 ★</span>
+              <div style="flex:1; height:8px; background:#e9ecef; border-radius:4px;">
+                <div style="width:75%; height:100%; background:#ffc107; border-radius:4px;"></div>
+              </div>
+              <span style="font-size:13px; color:#6c757d; min-width:30px;">75%</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+              <span style="font-size:13px; min-width:40px;">4 ★</span>
+              <div style="flex:1; height:8px; background:#e9ecef; border-radius:4px;">
+                <div style="width:15%; height:100%; background:#ffc107; border-radius:4px;"></div>
+              </div>
+              <span style="font-size:13px; color:#6c757d; min-width:30px;">15%</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+              <span style="font-size:13px; min-width:40px;">3 ★</span>
+              <div style="flex:1; height:8px; background:#e9ecef; border-radius:4px;">
+                <div style="width:6%; height:100%; background:#ffc107; border-radius:4px;"></div>
+              </div>
+              <span style="font-size:13px; color:#6c757d; min-width:30px;">6%</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+              <span style="font-size:13px; min-width:40px;">2 ★</span>
+              <div style="flex:1; height:8px; background:#e9ecef; border-radius:4px;">
+                <div style="width:3%; height:100%; background:#ffc107; border-radius:4px;"></div>
+              </div>
+              <span style="font-size:13px; color:#6c757d; min-width:30px;">3%</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span style="font-size:13px; min-width:40px;">1 ★</span>
+              <div style="flex:1; height:8px; background:#e9ecef; border-radius:4px;">
+                <div style="width:1%; height:100%; background:#ffc107; border-radius:4px;"></div>
+              </div>
+              <span style="font-size:13px; color:#6c757d; min-width:30px;">1%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review Cards -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar">A</div>
+            <div class="reviewer-info">
+              <h5>Ahmed Hassan</h5>
+              <div class="stars" style="font-size:13px;">★★★★★</div>
+              <span class="date">March 15, 2024</span>
+            </div>
+            <span class="verified">✅ Verified Purchase</span>
+          </div>
+          <p class="review-text">Amazing phone! The camera quality is absolutely stunning, especially in low light conditions. The AMOLED display is vibrant and the performance is buttery smooth. Highly recommended for this price range!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#28a745;">S</div>
+            <div class="reviewer-info">
+              <h5>Sarah Johnson</h5>
+              <div class="stars" style="font-size:13px;">★★★★★</div>
+              <span class="date">February 28, 2024</span>
+            </div>
+            <span class="verified">✅ Verified Purchase</span>
+          </div>
+          <p class="review-text">Best smartphone I've owned in years. The build quality feels premium and the battery lasts all day. Delivery was fast and the packaging was excellent. Very happy with this purchase!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#ff6b35;">M</div>
+            <div class="reviewer-info">
+              <h5>Muhammad Ali</h5>
+              <div class="stars" style="font-size:13px;">★★★★☆</div>
+              <span class="date">January 10, 2024</span>
+            </div>
+            <span class="verified">✅ Verified Purchase</span>
+          </div>
+          <p class="review-text">Great phone overall. The camera is excellent and the display is beautiful. The only downside is the storage is not expandable, so choose wisely. Otherwise 10/10 product.</p>
+        </div>
+
+      </div>
+
+      <!-- Shipping Tab -->
+      <div id="shipping" class="tab-content">
+        <h3 style="margin-bottom:16px; font-size:18px;">Shipping & Returns Policy</h3>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px;">
+          <div style="background:#f8f9fa; padding:20px; border-radius:8px;">
+            <h4 style="margin-bottom:12px;">🚚 Shipping Options</h4>
+            <ul style="padding-left:16px; line-height:2; font-size:14px; color:#495057;">
+              <li><strong>Standard Shipping:</strong> 5–7 business days — FREE</li>
+              <li><strong>Express Shipping:</strong> 2–3 business days — $9.99</li>
+              <li><strong>Overnight:</strong> Next business day — $24.99</li>
+              <li>Orders placed before 2 PM ship same day</li>
+            </ul>
+          </div>
+          <div style="background:#f8f9fa; padding:20px; border-radius:8px;">
+            <h4 style="margin-bottom:12px;">🔄 Returns Policy</h4>
+            <ul style="padding-left:16px; line-height:2; font-size:14px; color:#495057;">
+              <li>30-day hassle-free return policy</li>
+              <li>Items must be in original packaging</li>
+              <li>Free return shipping on defective items</li>
+              <li>Refund processed within 3–5 business days</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RELATED PRODUCTS (Week 3) -->
+  <section class="related-products">
+    <div class="container">
+      <div class="section-header" style="margin-bottom:20px; padding-bottom:12px; border-bottom:2px solid #dee2e6; display:flex; justify-content:space-between; align-items:center;">
+        <h2 class="section-title">Related Products</h2>
+        <a href="products.html" class="view-all">View All →</a>
+      </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="images/tech/tech1.png" alt="Watch" />
+            <div class="product-actions"><button class="action-btn">❤️</button><button class="action-btn">👁️</button></div>
+          </div>
+          <div class="product-info">
+            <h3>Smart Watch Series 5</h3>
+            <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(95)</span></div>
+            <div class="product-price"><span class="price-current">$199</span><span class="price-original">$249</span></div>
+            <a href="product-detail.html" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img">
+            <span class="product-badge">-25%</span>
+            <img src="images/tech/tech6.png" alt="Tablet" />
+            <div class="product-actions"><button class="action-btn">❤️</button><button class="action-btn">👁️</button></div>
+          </div>
+          <div class="product-info">
+            <h3>Smart Tablet HD 10"</h3>
+            <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(56)</span></div>
+            <div class="product-price"><span class="price-current">$299</span><span class="price-original">$399</span></div>
+            <a href="product-detail.html" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img">
+            <span class="product-badge">-45%</span>
+            <img src="images/tech/tech5.png" alt="Headphones" />
+            <div class="product-actions"><button class="action-btn">❤️</button><button class="action-btn">👁️</button></div>
+          </div>
+          <div class="product-info">
+            <h3>Wireless Headphones</h3>
+            <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(342)</span></div>
+            <div class="product-price"><span class="price-current">$89</span><span class="price-original">$159</span></div>
+            <a href="product-detail.html" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="images/tech/tech4.png" alt="Laptop" />
+            <div class="product-actions"><button class="action-btn">❤️</button><button class="action-btn">👁️</button></div>
+          </div>
+          <div class="product-info">
+            <h3>Gaming Laptop Pro 15"</h3>
+            <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(87)</span></div>
+            <div class="product-price"><span class="price-current">$799</span><span class="price-original">$999</span></div>
+            <a href="product-detail.html" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img">
+            <img src="images/tech/tech2.png" alt="Camera" />
+            <div class="product-actions"><button class="action-btn">❤️</button><button class="action-btn">👁️</button></div>
+          </div>
+          <div class="product-info">
+            <h3>Digital Camera 24MP</h3>
+            <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(211)</span></div>
+            <div class="product-price"><span class="price-current">$449</span><span class="price-original">$529</span></div>
+            <a href="product-detail.html" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <div class="container">
+      <h2>📬 Subscribe to Our Newsletter</h2>
+      <p>Get the latest deals, new arrivals, and exclusive offers straight to your inbox.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address..." />
+        <button>Subscribe Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <div class="logo-text">🛍️ BrandStore</div>
+          <p>Your one-stop destination for the best products at unbeatable prices.</p>
+          <div class="footer-app-btns">
+            <img src="images/misc/app-store.png" alt="App Store" />
+            <img src="images/misc/google-play.png" alt="Google Play" />
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Help &amp; Support</h4>
+          <ul>
+            <li><a href="#">📋 Track My Order</a></li>
+            <li><a href="#">🔄 Return &amp; Refund</a></li>
+            <li><a href="#">💳 Payment Methods</a></li>
+            <li><a href="#">❓ FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">🏢 About Us</a></li>
+            <li><a href="#">📰 News &amp; Blog</a></li>
+            <li><a href="#">💼 Careers</a></li>
+            <li><a href="#">🔐 Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="products.html">📱 Phones & Tablets</a></li>
+            <li><a href="products.html">💻 Computers</a></li>
+            <li><a href="products.html">👗 Fashion</a></li>
+            <li><a href="products.html">🛋️ Interior</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4>Contact Us</h4>
+          <p>📍 123 Market Street, New York, NY 10001</p>
+          <p>📞 +1 (800) 123-4567</p>
+          <p>📧 support@brandstore.com</p>
+          <div class="social-links">
+            <a href="#">📘</a><a href="#">📸</a><a href="#">🐦</a><a href="#">▶️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 BrandStore. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy</a><a href="#">Terms</a><a href="#">Sitemap</a>
+        </div>
+        <div class="payment-icons">💳 🏦 📱</div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

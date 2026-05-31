@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopHub - Best Online Shopping Store</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ====== TOP BAR ====== -->
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-left">
+      <a href="#">Hi, Sign In</a>
+      <span class="top-bar-separator">|</span>
+      <a href="#">Register</a>
+      <span class="top-bar-separator">|</span>
+      <a href="#">
+        <img src="images/GB@2x.png" alt="EN" class="flag" /> English
+      </a>
+    </div>
+    <div class="top-bar-right">
+      <a href="#">Sell on ShopHub</a>
+      <span class="top-bar-separator">|</span>
+      <a href="#">Customer Support</a>
+      <span class="top-bar-separator">|</span>
+      <a href="#">Track Your Order</a>
+    </div>
+  </div>
+</div>
+
+<!-- ====== MAIN HEADER ====== -->
+<header class="main-header">
+  <div class="container">
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <span class="logo-text">Shop<span>Hub</span></span>
+    </a>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <select class="search-category">
+        <option>All Categories</option>
+        <option>Electronics</option>
+        <option>Clothing</option>
+        <option>Furniture</option>
+        <option>Sports</option>
+        <option>Books</option>
+      </select>
+      <input type="text" class="search-input" placeholder="Search products, brands, categories..." />
+      <button class="search-btn">&#128269;</button>
+    </div>
+
+    <!-- Actions -->
+    <div class="header-actions">
+      <button class="header-action-btn">
+        <span class="icon">&#128516;</span>
+        <span class="label">Sign In</span>
+      </button>
+      <button class="header-action-btn">
+        <span class="icon">&#10084;&#65039;</span>
+        <span class="label">Wishlist</span>
+      </button>
+      <button class="header-action-btn cart-badge">
+        <span class="icon">&#128722;</span>
+        <span class="badge">0</span>
+        <span class="label">Cart</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ====== NAV BAR ====== -->
+<nav class="nav-bar">
+  <div class="container">
+    <button class="categories-btn">&#9776; All Categories</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">&#127968; Home</a></li>
+      <li><a href="products.html">&#128722; Products</a></li>
+      <li><a href="#">&#9889; Flash Deals</a></li>
+      <li><a href="#">&#127381; New Arrivals</a></li>
+      <li><a href="#">&#128176; Best Sellers</a></li>
+      <li><a href="#">&#128218; Blog</a></li>
+      <li><a href="#">&#128222; Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ====== HERO SECTION ====== -->
+<section class="hero-section">
+  <div class="hero-wrapper">
+
+    <!-- Left Sidebar Categories -->
+    <div class="hero-sidebar">
+      <ul>
+        <li><a href="products.html?cat=electronics">&#128241; Electronics <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=fashion">&#128084; Fashion <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=furniture">&#128763; Furniture <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=sports">&#9917; Sports &amp; Outdoor <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=beauty">&#128144; Beauty &amp; Care <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=books">&#128218; Books &amp; Media <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=toys">&#127931; Toys &amp; Games <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=automotive">&#128663; Automotive <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=garden">&#127807; Garden &amp; DIY <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=food">&#127860; Grocery &amp; Food <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=health">&#128138; Health &amp; Pharmacy <span class="arrow">&#9654;</span></a></li>
+        <li><a href="products.html?cat=office">&#128188; Office Supplies <span class="arrow">&#9654;</span></a></li>
+      </ul>
+    </div>
+
+    <!-- Center Banner / Slider -->
+    <div class="hero-banner">
+      <!-- Single hero image (slide simulation) -->
+      <img src="images/Banner-board-800x420 2.png" alt="Main Banner" style="width:100%;height:100%;object-fit:cover;" />
+      <div class="hero-banner-overlay">
+        <div class="hero-banner-content">
+          <h1>Latest Electronics<br/>Best Deals</h1>
+          <p>Up to 60% off on top brands.<br/>Limited time offer!</p>
+          <a href="products.html" class="btn btn-primary">Shop Now &#8594;</a>
+        </div>
+      </div>
+      <!-- Dots -->
+      <div class="hero-dots">
+        <button class="hero-dot active"></button>
+        <button class="hero-dot"></button>
+        <button class="hero-dot"></button>
+      </div>
+    </div>
+
+    <!-- Right Promo Cards -->
+    <div class="hero-promo">
+      <div class="promo-card">
+        <img src="images/Mask group.png" alt="Fashion Sale" />
+        <span class="promo-card-label">Fashion Sale</span>
+      </div>
+      <div class="promo-card">
+        <img src="images/Mask group (1).png" alt="Home Decor" />
+        <span class="promo-card-label">Home Decor</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ====== TRUST BADGES ====== -->
+<section class="trust-badges">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon">&#128666;</div>
+        <div class="trust-text">
+          <h5>Free Shipping</h5>
+          <p>On orders over $50</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#128260;</div>
+        <div class="trust-text">
+          <h5>Easy Returns</h5>
+          <p>30-day return policy</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#128274;</div>
+        <div class="trust-text">
+          <h5>Secure Payment</h5>
+          <p>100% secure checkout</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#128222;</div>
+        <div class="trust-text">
+          <h5>24/7 Support</h5>
+          <p>Always here to help</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== CATEGORIES SECTION ====== -->
+<section class="categories-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Shop by Category</h2>
+      <a href="products.html" class="view-all-link">View All &#8594;</a>
+    </div>
+    <div class="category-grid">
+      <a href="products.html?cat=electronics" class="category-card">
+        <div class="category-card-icon">&#128241;</div>
+        <span>Electronics</span>
+      </a>
+      <a href="products.html?cat=fashion" class="category-card">
+        <div class="category-card-icon">&#128084;</div>
+        <span>Fashion</span>
+      </a>
+      <a href="products.html?cat=furniture" class="category-card">
+        <div class="category-card-icon">&#128763;</div>
+        <span>Furniture</span>
+      </a>
+      <a href="products.html?cat=sports" class="category-card">
+        <div class="category-card-icon">&#9917;</div>
+        <span>Sports</span>
+      </a>
+      <a href="products.html?cat=beauty" class="category-card">
+        <div class="category-card-icon">&#128144;</div>
+        <span>Beauty</span>
+      </a>
+      <a href="products.html?cat=toys" class="category-card">
+        <div class="category-card-icon">&#127931;</div>
+        <span>Toys</span>
+      </a>
+      <a href="products.html?cat=books" class="category-card">
+        <div class="category-card-icon">&#128218;</div>
+        <span>Books</span>
+      </a>
+      <a href="products.html?cat=food" class="category-card">
+        <div class="category-card-icon">&#127860;</div>
+        <span>Grocery</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== PROMO BANNERS ====== -->
+<section class="promo-banner-section">
+  <div class="container">
+    <div class="promo-banners">
+      <div class="promo-banner-card">
+        <img src="images/Group 969.png" alt="Tech Sale" />
+        <div class="promo-banner-content">
+          <h3>Tech Deals</h3>
+          <p>Laptops from $399</p>
+          <a href="products.html" class="btn-sm">Shop Now</a>
+        </div>
+      </div>
+      <div class="promo-banner-card">
+        <img src="images/image 98.png" alt="Fashion Week" />
+        <div class="promo-banner-content">
+          <h3>Fashion Week</h3>
+          <p>Up to 50% off clothing</p>
+          <a href="products.html" class="btn-sm">Explore</a>
+        </div>
+      </div>
+      <div class="promo-banner-card">
+        <img src="images/Group 982.png" alt="Home Sale" />
+        <div class="promo-banner-content">
+          <h3>Home &amp; Living</h3>
+          <p>Refresh your space today</p>
+          <a href="products.html" class="btn-sm">Discover</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FEATURED PRODUCTS ====== -->
+<section class="products-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Featured Products</h2>
+      <a href="products.html" class="view-all-link">View All &#8594;</a>
+    </div>
+    <div class="product-grid">
+
+      <!-- Product Card 1 -->
+      <div class="product-card">
+        <span class="product-card-badge sale">-20%</span>
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 23.png" alt="Laptop" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Pro Laptop 15" 16GB RAM</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="rating-count">(128)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$799</span>
+            <span class="price-original">$999</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="product-card">
+        <span class="product-card-badge new">NEW</span>
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 29.png" alt="Smartphone" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Smart Phone X12 Pro</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-count">(256)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$549</span>
+            <span class="price-original">$699</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="product-card">
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/1.png" alt="Chair" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Ergonomic Office Chair</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="rating-count">(89)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$349</span>
+            <span class="price-original">$429</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="product-card">
+        <span class="product-card-badge sale">-35%</span>
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 24.png" alt="Jacket" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Men's Winter Jacket</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-count">(412)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$89</span>
+            <span class="price-original">$139</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 5 -->
+      <div class="product-card">
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 34.png" alt="Camera" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">DSLR Camera 24MP Kit</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="rating-count">(67)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$1,199</span>
+            <span class="price-original">$1,499</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 6 -->
+      <div class="product-card">
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/3.png" alt="Sofa" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Modern 3-Seater Sofa</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-count">(34)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$899</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 7 -->
+      <div class="product-card">
+        <span class="product-card-badge new">NEW</span>
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 26.png" alt="Dress" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Women's Floral Dress</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-count">(203)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$59</span>
+            <span class="price-original">$79</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 8 -->
+      <div class="product-card">
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 32.png" alt="Headphones" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Noise-Cancel Headphones</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-count">(567)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$249</span>
+            <span class="price-original">$299</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 9 -->
+      <div class="product-card">
+        <span class="product-card-badge sale">-15%</span>
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/6.png" alt="Lamp" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">LED Floor Lamp Modern</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+            <span class="rating-count">(45)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$129</span>
+            <span class="price-original">$149</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Product Card 10 -->
+      <div class="product-card">
+        <button class="product-wishlist">&#129293;</button>
+        <div class="product-img-wrap">
+          <img src="images/image 33.png" alt="Watch" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">Smart Watch Pro Series</p>
+          <div class="product-rating">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-count">(891)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$299</span>
+            <span class="price-original">$399</span>
+          </div>
+          <a href="product-detail.html" class="btn-buy">Buy Now</a>
+        </div>
+      </div>
+
+    </div><!-- /product-grid -->
+
+    <div class="load-more-wrap">
+      <a href="products.html" class="btn btn-secondary">View All Products &#8594;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== BRANDS SECTION ====== -->
+<section class="brands-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Trusted Brands</h2>
+    </div>
+    <div class="brands-grid">
+      <div class="brand-card">Samsung</div>
+      <div class="brand-card">Apple</div>
+      <div class="brand-card">Sony</div>
+      <div class="brand-card">Nike</div>
+      <div class="brand-card">Adidas</div>
+      <div class="brand-card">LG</div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <span class="logo-text">Shop<span>Hub</span></span>
+        <p>Your one-stop destination for quality products at the best prices. Shop from millions of products with fast delivery and easy returns.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn">f</a>
+          <a href="#" class="social-btn">in</a>
+          <a href="#" class="social-btn">tw</a>
+          <a href="#" class="social-btn">yt</a>
+        </div>
+        <div class="payment-icons" style="margin-top:20px;">
+          <span class="payment-icon">VISA</span>
+          <span class="payment-icon">MASTERCARD</span>
+          <span class="payment-icon">PAYPAL</span>
+          <span class="payment-icon">STRIPE</span>
+        </div>
+      </div>
+
+      <!-- Company Links -->
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Support Links -->
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Report a Problem</a></li>
+        </ul>
+      </div>
+
+      <!-- Account Links -->
+      <div class="footer-col">
+        <h4>My Account</h4>
+        <ul>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Order History</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Reward Points</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p style="font-size:13px;color:#888;margin-bottom:8px;">Get the latest deals and offers in your inbox.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="Your email address" />
+          <button type="submit">&#8594;</button>
+        </form>
+        <p style="font-size:11px;color:#666;margin-top:8px;">We respect your privacy. Unsubscribe anytime.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;width:100%;">
+      <p>&copy; 2025 ShopHub. All rights reserved.</p>
+      <div style="display:flex;gap:20px;">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
